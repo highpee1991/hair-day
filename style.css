@@ -12,6 +12,7 @@
   outline: none;
   border: none;
   list-style-type: none;
+  text-decoration: none;
 }
 
 html {
@@ -59,12 +60,12 @@ body {
   transition: background-color 0.3s, color 0.3s, padding 0.3s;
 }
 
-.list {
+.list > a {
   padding: 0.2rem 1rem;
   color: var(--color-medium);
 }
 
-.list:hover {
+.list:hover > a {
   color: var(--color-dark);
   background-color: var(--color-light);
   border-radius: 1rem;
